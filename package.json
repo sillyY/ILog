@@ -1,0 +1,24 @@
+{
+  "name": "ILog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^12.12.20"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.3",
+    "lodash": "^4.17.20",
+    "tslib": "^1.10.0"
+  }
+}
